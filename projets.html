@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projets Data Analyst — Nanga Alexis Camara</title>
+<meta name="description" content="5 études de cas Data Analyst : SQL (NovaShop, DataLendo), Excel (TechStore), Power BI (dashboards) et Tableau (British Airways). Contexte, méthode et livrables détaillés.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="index.html" class="brand">
+      <span class="brand-name">Nanga Alexis Camara</span>
+      <span class="brand-role">Data Analyst</span>
+    </a>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span>
+    </button>
+    <div class="nav-links">
+      <a href="index.html" data-nav="index.html">Accueil</a>
+      <a href="projets.html" data-nav="projets.html">Projets</a>
+      <a href="parcours.html" data-nav="parcours.html">Parcours</a>
+      <a href="contact.html" data-nav="contact.html">Contact</a>
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary">Me contacter</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <section style="padding-bottom: 40px;">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-label">Portfolio de projets</span>
+        <h1>Cinq projets, cinq questions métier résolues</h1>
+        <p>Chaque projet part d'un contexte de données réel (fictif à des fins pédagogiques) et suit la même logique : comprendre la question métier, choisir la méthode, produire un livrable exploitable.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top: 0;">
+    <div class="container">
+
+      <!-- PROJET 1 — SQL NovaShop -->
+      <article class="case-study" id="novashop" data-reveal>
+        <div class="case-head">
+          <div>
+            <span class="case-number mono">Projet 01</span>
+            <h3>NovaShop — modélisation et requêtes e-commerce</h3>
+          </div>
+          <span class="badge badge-sql">SQL · MySQL</span>
+        </div>
+        <div class="case-body">
+          <div class="case-block">
+            <span class="mono">Contexte</span>
+            <p>Un jeu de données e-commerce fictif regroupant clients, produits et commandes, à modéliser sous forme de base relationnelle.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Question métier</span>
+            <p>Répondre à un questionnaire business à partir des données clients, produits et commandes.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Méthode</span>
+            <p>Création du schéma et des tables sous MySQL, puis écriture des requêtes SQL répondant à chaque question posée.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Livrable</span>
+            <p>Script de création de base de données et fichier de requêtes répondant point par point au questionnaire.</p>
+          </div>
+        </div>
+        <div class="case-footer">
+          <a href="https://github.com/nangaalexiscamara4pixel/Traveaux-SQL_1" target="_blank" rel="noopener" class="btn btn-outline">Voir le code sur GitHub ↗</a>
+        </div>
+      </article>
+
+      <!-- PROJET 2 — SQL DataLendo -->
+      <article class="case-study" id="datalendo" data-reveal>
+        <div class="case-head">
+          <div>
+            <span class="case-number mono">Projet 02</span>
+            <h3>DataLendo — analyse commerciale retail</h3>
+          </div>
+          <span class="badge badge-sql">SQL</span>
+        </div>
+        <div class="case-body">
+          <div class="case-block">
+            <span class="mono">Contexte</span>
+            <p>Données clients, produits, ventes et paiements d'une enseigne retail fictive, réparties sur quatre tables liées.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Question métier</span>
+            <p>Croiser ces quatre tables pour répondre à des questions d'analyse commerciale.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Méthode</span>
+            <p>Écriture de requêtes SQL de jointure et d'agrégation entre les quatre tables du modèle.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Livrable</span>
+            <p>Rapport de projet accompagné d'un script SQL documenté.</p>
+          </div>
+        </div>
+        <div class="case-footer">
+          <a href="https://github.com/nangaalexiscamara4pixel/Traveaux-SQL" target="_blank" rel="noopener" class="btn btn-outline">Voir le code sur GitHub ↗</a>
+        </div>
+      </article>
+
+      <!-- PROJET 3 — Excel TechStore -->
+      <article class="case-study" id="techstore" data-reveal>
+        <div class="case-head">
+          <div>
+            <span class="case-number mono">Projet 03</span>
+            <h3>TechStore — nettoyage et analyse de ventes</h3>
+          </div>
+          <span class="badge badge-excel">Excel</span>
+        </div>
+        <div class="case-body">
+          <div class="case-block">
+            <span class="mono">Contexte</span>
+            <p>Données de ventes brutes d'une enseigne fictive, à nettoyer avant toute analyse.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Question métier</span>
+            <p>Rendre lisibles des ventes brutes et en dégager des tendances exploitables.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Méthode</span>
+            <p>Nettoyage des données avec Power Query, puis construction de tableaux croisés dynamiques et de graphiques.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Livrable</span>
+            <p>Trois classeurs Excel : traitement des ventes, graphiques et exploitation d'un tableau croisé dynamique.</p>
+          </div>
+        </div>
+        <div class="case-footer">
+          <a href="https://github.com/nangaalexiscamara4pixel/Travaux-Excel" target="_blank" rel="noopener" class="btn btn-outline">Voir le code sur GitHub ↗</a>
+        </div>
+      </article>
+
+      <!-- PROJET 4 — Power BI -->
+      <article class="case-study" id="powerbi" data-reveal>
+        <div class="case-head">
+          <div>
+            <span class="case-number mono">Projet 04</span>
+            <h3>Tableaux de bord Power BI</h3>
+          </div>
+          <span class="badge badge-powerbi">Power BI</span>
+        </div>
+        <div class="case-body">
+          <div class="case-block">
+            <span class="mono">Contexte</span>
+            <p>Quatre dashboards sur des thématiques différentes : distribution, ventes journalières, ventes 2026 et indicateurs environnementaux "Green Pulse".</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Question métier</span>
+            <p>Construire des rapports interactifs pour le suivi commercial et environnemental.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Méthode</span>
+            <p>Modélisation des données, création de mesures, de visuels et de filtres sous Power BI.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Livrable</span>
+            <p>Quatre fichiers .pbix/.pbit, un par thématique.</p>
+          </div>
+        </div>
+        <div class="case-footer">
+          <a href="https://github.com/nangaalexiscamara4pixel/Travaux-Power-BI" target="_blank" rel="noopener" class="btn btn-outline">Voir le code sur GitHub ↗</a>
+        </div>
+      </article>
+
+      <!-- PROJET 5 — Tableau British Airways -->
+      <article class="case-study" id="british-airways" data-reveal>
+        <div class="case-head">
+          <div>
+            <span class="case-number mono">Projet 05</span>
+            <h3>British Airways — satisfaction client</h3>
+          </div>
+          <span class="badge badge-tableau">Tableau</span>
+        </div>
+        <div class="case-body">
+          <div class="case-block">
+            <span class="mono">Contexte</span>
+            <p>Un ensemble d'avis clients British Airways à analyser.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Question métier</span>
+            <p>Comprendre la satisfaction client à partir de ces avis.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Méthode</span>
+            <p>Préparation des données sous Excel, puis construction d'un dashboard sous Tableau.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Livrable</span>
+            <p>Dashboard Tableau accompagné d'un rapport d'analyse.</p>
+          </div>
+        </div>
+        <div class="case-footer">
+          <a href="https://github.com/nangaalexiscamara4pixel/Traveaux-sur-Tableau" target="_blank" rel="noopener" class="btn btn-outline">Voir le code sur GitHub ↗</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CTA FIN DE PAGE -->
+  <section class="section-alt">
+    <div class="container">
+      <div class="cta-banner" data-reveal>
+        <div class="cta-banner-text">
+          <h2>Convaincu ?</h2>
+          <p>Discutons de votre besoin et de la façon dont ces projets se transposent à vos données.</p>
+        </div>
+        <div class="cta-banner-actions">
+          <a href="contact.html" class="btn btn-primary btn-lg">Discutons de votre besoin →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name">Nanga Alexis Camara</span>
+        <p>Data Analyst en reconversion depuis la physique-chimie. SQL, Excel, Power BI et Tableau appliqués à des projets concrets.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="index.html">Accueil</a>
+          <a href="projets.html">Projets</a>
+          <a href="parcours.html">Parcours</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="tel:+40757256574">+40 757 256 574</a>
+          <a href="mailto:nangalexiscamara4@gmail.com">nangalexiscamara4@gmail.com</a>
+        </div>
+        <div class="footer-col">
+          <h4>Profils</h4>
+          <a href="https://www.linkedin.com/in/nanga-alexis-camara-292045242" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/nangaalexiscamara4pixel" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Nanga Alexis Camara.</span>
+      <span>Data Analyst — Disponible pour un nouveau poste.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
