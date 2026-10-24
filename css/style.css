@@ -857,6 +857,7 @@ section { padding: 88px 0; }
 .cert-item h4 { margin: 0 0 2px; font-size: 0.95rem; color: var(--ink); font-family: var(--font-body); font-weight: 600; }
 @media (prefers-color-scheme: dark) { .cert-item h4 { color: var(--text); } }
 .cert-item span { font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); }
+.cert-item .cert-desc { margin: 6px 0 0; font-size: 0.85rem; line-height: 1.45; color: var(--text-muted); }
 
 .lang-row { display: flex; flex-wrap: wrap; gap: 12px; }
 .lang-row .badge { font-size: 0.86rem; padding: 8px 16px; }
