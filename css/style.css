@@ -887,6 +887,7 @@ section { padding: 88px 0; }
 }
 .cv-download h3 { margin-bottom: 4px; }
 .cv-download p { margin-bottom: 0; }
+.cv-actions { display: flex; gap: 12px; flex-wrap: wrap; }
 
 /* ---------- Contact page ---------- */
 .contact-hero { padding-bottom: 48px; text-align: center; }
