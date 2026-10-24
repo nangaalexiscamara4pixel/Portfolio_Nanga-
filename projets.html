@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Projets Data Analyst — Nanga Alexis Camara</title>
-<meta name="description" content="5 études de cas Data Analyst : SQL (NovaShop, DataLendo), Excel (TechStore), Power BI (dashboards) et Tableau (British Airways). Contexte, méthode et livrables détaillés.">
+<meta name="description" content="8 études de cas Data Analyst : SQL (NovaShop, DataLendo, Minex Africa, Kora Distribution, Kora Assurances), Excel (TechStore), Power BI (dashboards) et Tableau (British Airways). Contexte, méthode et livrables détaillés.">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,7 +41,7 @@
     <div class="container">
       <div class="section-head">
         <span class="section-label">Portfolio de projets</span>
-        <h1>Cinq projets, cinq questions métier résolues</h1>
+        <h1>Huit projets, huit questions métier résolues</h1>
         <p>Chaque projet part d'un contexte de données réel (fictif à des fins pédagogiques) et suit la même logique&nbsp;: comprendre la question métier, choisir la méthode, produire un livrable exploitable.</p>
       </div>
     </div>
@@ -120,11 +120,116 @@
         </div>
       </article>
 
-      <!-- PROJET 3 — Excel TechStore -->
+      <!-- PROJET 3 — SQL Minex Africa -->
+      <article class="case-study" id="minex-africa" data-reveal>
+        <div class="case-head case-head-sql">
+          <div>
+            <span class="case-number">Projet 03</span>
+            <h3>Minex Africa — analyse d'une activité minière</h3>
+          </div>
+          <span class="case-tool-badge">SQL · MySQL</span>
+          <div class="case-head-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div>
+        </div>
+        <div class="case-content">
+        <div class="case-body">
+          <div class="case-block">
+            <span class="mono">Contexte</span>
+            <p>Entreprise minière fictive opérant sur plusieurs sites en Afrique&nbsp;: sites, employés, minerais, extractions et ventes répartis sur cinq tables liées.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Question métier</span>
+            <p>Suivre les ressources humaines, les volumes extraits et les performances commerciales pour identifier les sites, minerais et clients les plus importants.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Méthode</span>
+            <p>28 requêtes SQL réparties sur six niveaux&nbsp;: filtres et tris, agrégations, calculs commerciaux, regroupements, jointures puis sous-requêtes d'analyse métier.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Livrable</span>
+            <p>Script MySQL de création et d'alimentation de la base, requêtes commentées et sept indicateurs clés de performance.</p>
+          </div>
+        </div>
+        <div class="case-footer">
+          <a href="https://github.com/nangaalexiscamara4pixel/Projet_MySQL-Minex_Africa" target="_blank" rel="noopener" class="btn btn-outline"><svg class="icon" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> Voir le code sur GitHub <svg class="icon" viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
+        </div>
+        </div>
+      </article>
+
+      <!-- PROJET 4 — SQL Kora Distribution -->
+      <article class="case-study" id="kora-distribution" data-reveal>
+        <div class="case-head case-head-sql">
+          <div>
+            <span class="case-number">Projet 04</span>
+            <h3>Kora Distribution — analyse commerciale et stocks</h3>
+          </div>
+          <span class="case-tool-badge">SQL · MySQL</span>
+          <div class="case-head-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div>
+        </div>
+        <div class="case-content">
+        <div class="case-body">
+          <div class="case-block">
+            <span class="mono">Contexte</span>
+            <p>Distributeur fictif de produits électroniques et informatiques&nbsp;: clients, produits, commerciaux, commandes et détails de commandes sur cinq tables.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Question métier</span>
+            <p>Analyser le catalogue, les commandes et les stocks&nbsp;: produits les plus chers, prix moyen par catégorie, commandes en cours ou annulées, valeur du stock.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Méthode</span>
+            <p>Requêtes de filtrage, de tri et d'agrégation, regroupements avec GROUP BY et HAVING, puis sous-requêtes pour comparer prix et stocks à la moyenne.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Livrable</span>
+            <p>Script MySQL complet (création des tables, données et requêtes d'analyse) accompagné du questionnaire de niveau 1.</p>
+          </div>
+        </div>
+        <div class="case-footer">
+          <a href="https://github.com/nangaalexiscamara4pixel/Kora_Distribution-" target="_blank" rel="noopener" class="btn btn-outline"><svg class="icon" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> Voir le code sur GitHub <svg class="icon" viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
+        </div>
+        </div>
+      </article>
+
+      <!-- PROJET 5 — SQL Kora Assurances -->
+      <article class="case-study" id="kora-assurances" data-reveal>
+        <div class="case-head case-head-sql">
+          <div>
+            <span class="case-number">Projet 05</span>
+            <h3>Kora Assurances — suivi des contrats et paiements</h3>
+          </div>
+          <span class="case-tool-badge">SQL · MySQL</span>
+          <div class="case-head-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div>
+        </div>
+        <div class="case-content">
+        <div class="case-body">
+          <div class="case-block">
+            <span class="mono">Contexte</span>
+            <p>Compagnie d'assurance fictive opérant en Guinée&nbsp;: assurés, produits d'assurance, agents, contrats et paiements reliés par clés primaires et étrangères.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Question métier</span>
+            <p>Suivre les clients, les contrats souscrits, les produits les plus demandés et les paiements reçus.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Méthode</span>
+            <p>Requêtes SQL progressives&nbsp;: sélection et filtres, agrégations, GROUP BY et HAVING, puis jointures entre les cinq tables pour produire des indicateurs métier.</p>
+          </div>
+          <div class="case-block">
+            <span class="mono">Livrable</span>
+            <p>Script MySQL de la base, requêtes répondant au questionnaire et README documentant le modèle de données.</p>
+          </div>
+        </div>
+        <div class="case-footer">
+          <a href="https://github.com/nangaalexiscamara4pixel/Projet_Kora_assurances_SQL" target="_blank" rel="noopener" class="btn btn-outline"><svg class="icon" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> Voir le code sur GitHub <svg class="icon" viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
+        </div>
+        </div>
+      </article>
+
+      <!-- PROJET 6 — Excel TechStore -->
       <article class="case-study" id="techstore" data-reveal>
         <div class="case-head case-head-excel">
           <div>
-            <span class="case-number">Projet 03</span>
+            <span class="case-number">Projet 06</span>
             <h3>TechStore — nettoyage et analyse de ventes</h3>
           </div>
           <span class="case-tool-badge">Excel</span>
@@ -155,11 +260,11 @@
         </div>
       </article>
 
-      <!-- PROJET 4 — Power BI -->
+      <!-- PROJET 7 — Power BI -->
       <article class="case-study" id="powerbi" data-reveal>
         <div class="case-head case-head-powerbi">
           <div>
-            <span class="case-number">Projet 04</span>
+            <span class="case-number">Projet 07</span>
             <h3>Tableaux de bord Power BI</h3>
           </div>
           <span class="case-tool-badge">Power BI</span>
@@ -190,11 +295,11 @@
         </div>
       </article>
 
-      <!-- PROJET 5 — Tableau British Airways -->
+      <!-- PROJET 8 — Tableau British Airways -->
       <article class="case-study" id="british-airways" data-reveal>
         <div class="case-head case-head-tableau">
           <div>
-            <span class="case-number">Projet 05</span>
+            <span class="case-number">Projet 08</span>
             <h3>British Airways — satisfaction client</h3>
           </div>
           <span class="case-tool-badge">Tableau</span>
